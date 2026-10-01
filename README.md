@@ -36,8 +36,7 @@ The task was to:
   - First, RSA was used to decrypt AES keys via PKCS1_OAEP.  
   - Then, AES keys decrypted messages in CBC mode with a professor-provided IV.  
 - **Verification:** MD5 hashes ensured the integrity and correctness of keys and messages.  
-- **Debugging:** Overcame initial padding issues during AES decryption by troubleshooting block size and padding compatibility.  
-- **AI Assistance:** Consulted AI tools to clarify cryptography concepts and solve specific implementation challenges.
+- **Debugging:** Overcame initial padding issues during AES decryption by troubleshooting block size and padding compatibility.
 
 ## Execution Flow  
 1. Load RSA private key from PEM files.  
